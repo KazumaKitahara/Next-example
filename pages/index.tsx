@@ -8,8 +8,7 @@ const Home: NextPageWithLayout = () => {
   return (
     <div>
       <Head>
-        <title>Todo List</title>
-        <meta name="description" content="Nuxt.jsで作成したTODOリストです"/>
+        <title>Todo List</title><meta name="description" content="Next.jsで作成したTODOリストです"/>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
 
