@@ -1,0 +1,6 @@
+@import "var";
+
+.contents {
+  padding: 0 2rem;
+  min-height: calc(100vh - #{$header-height} - #{$footer-height});
+}

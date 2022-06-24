@@ -1,0 +1,15 @@
+@import "var";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: $header-height;
+  padding: 0 2rem;
+  background: linear-gradient(to right bottom, white 70%, rgba(0, 0, 0, .4));
+
+  &__title {
+    display: flex;
+    align-items: center;
+  }
+}
