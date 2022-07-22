@@ -1,0 +1,11 @@
+@import "var";
+
+.todoTable {
+  position: relative;
+
+  &__deleteButton {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+}
